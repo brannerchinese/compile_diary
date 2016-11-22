@@ -8,6 +8,8 @@ Directory `head_and_tail_matter` contain two necessary files: `preamble.tex` and
 
 Directory `sections` contains individual diary entries, whose filenames will be loaded in the order they are returned by Python's `os.listdir` (dictionary order on my system).
 
+Directory `diary_graphics` is the "graphicspath"; it contains any graphics files needed in the text. To include an image, use the macro `\gr{filename}{n}` where `filename` is the name of the image file in `diary_graphics` and `n` is the `stylebox` ratio. There are also other graphics macros `grw` and `grh`, and still other macros for my own purposes — don't worry about them.
+
 ### Compilation of whole diary
 
 To compile and view the whole diary:
