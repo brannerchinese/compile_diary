@@ -32,6 +32,6 @@ where `n` is the maximum age in hours that is to be included. This second progra
 
 ### Actual diary
 
-My actual diary is not found in a public repository.
+My actual diary is not found in a public repository. Initially it was all in a large LaTeX file. I wrote a script to break it into sections, by entry, in the interest of greater modularity. Then I prepared the code in this repository to compile the sections, singly or reassembled into a whole.
 
 [end]
