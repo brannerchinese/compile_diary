@@ -1,5 +1,9 @@
 ## Python code for assembling and compiling LaTeX diary
 
+### Actual diary
+
+My actual diary is not found in a public repository. It was originally a single, long LaTeX file. I wrote a script to break it into sections, each section one diary entry, in the interest of the recognized good of modularity. Then I wrote the code in the present repository to compile either just the newest sections (because things sometimes go wrong in LaTeX and you would like to see what you've done) or to reassemble the parts into a whole diary.
+
 ### Organization and set-up
 
 This program runs in both Python 2 and 3, though there are no dependencies and hence no `requirements.txt` file. 
@@ -30,8 +34,5 @@ python compile_sample_diary_entries.py n
 
 where `n` is the maximum age in hours that is to be included. This second program is useful for examining the typesetting of individual entries without having to compile the whole diary. The filename `diary_excerpts_5_sections.tex` is used, where `5` here indicates that five sections were included.
 
-### Actual diary
-
-My actual diary is not found in a public repository.
 
 [end]
